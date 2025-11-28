@@ -9,6 +9,12 @@ pip install .
 Then run:
 
 sid init
+
+
 sid add file.txt
+
+
 sid commit "msg"
+
+
 sid log
