@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+sid/__init__.py
+sid/cli.py
+sid/index.py
+sid/objects.py
+sid/refs.py
+sid/repo.py
+sid_vcs.egg-info/PKG-INFO
+sid_vcs.egg-info/SOURCES.txt
+sid_vcs.egg-info/dependency_links.txt
+sid_vcs.egg-info/entry_points.txt
+sid_vcs.egg-info/top_level.txt
+tests/test_workflow.py
