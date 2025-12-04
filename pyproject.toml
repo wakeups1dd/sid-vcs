@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=42","wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sid"
+version = "0.2.0"
+description = "SID — an educational Git-like VCS (v2)"
+authors = [{name="Siddhant Gangawane"}]
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = []
+[project.scripts]
+sid = "sid.cli:main"
+license = { text = "MIT" }

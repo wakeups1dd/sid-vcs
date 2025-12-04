@@ -1,0 +1,21 @@
+Metadata-Version: 2.4
+Name: sid
+Version: 0.2.0
+Summary: SID — an educational Git-like VCS (v2)
+Author: Sid Author
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# sid v2 — stronger educational Git-like VCS
+
+This is a more featureful educational implementation of a Git-like VCS named `sid`.
+It includes:
+- init, clone, config, add, status, diff, commit, reset, rm
+- branch, checkout, merge, branch delete (-d/-D)
+- stash, stash pop, stash list
+- remote add/list, fetch, push, pull (local filesystem `file:///` remote supported)
+- log, reflog (basic), tag-like refs are under refs/tags
+- pyproject.toml for packaging
+
+This is intended as an educational project. It does **not** implement the full Git protocol
+and is not safe for production use.
