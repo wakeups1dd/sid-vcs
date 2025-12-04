@@ -1,3 +1,4 @@
+LICENSE
 README.md
 pyproject.toml
 sid/__init__.py
