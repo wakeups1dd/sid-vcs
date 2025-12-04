@@ -1,2 +1,0 @@
-[console_scripts]
-sid = sid.cli:main
